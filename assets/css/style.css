@@ -1,34 +1,46 @@
+
 .nav {
-    border-bottom: 1px solid #105e62;
+    border: 1px solid #105e62;
     text-align: right;
-    position: fixed; 
-    left: 0; 
-    top: 0; 
-    width: 100%;
-    font-family: 'Georgia', Times, Times New Roman, serif; 
+    border-width: 1px 0;
+    list-style: none;
+    padding: 0;
+    text align: right;
+    margin-top: 0px; 
     background-color: white; 
 }
 
 .nav ul {  
-    margin: 0;
+    
 }
 
 .nav li {
     list-style-type: none; 
     display: inline;
-    padding: 0;
+    position: center; 
 }
 
 .headname {
     text-align: center; 
-    position: center;
     margin-left: 275px;
     margin-top: 0px;
     margin-bottom: 0px;
-    width: 275px;
+    width: 175px;
     padding: 10px;
-    border: 5px solid #4aaaa5;
+    border: 0px solid #4aaaa5;
     background-color: #4aaaa5;
     color: white
+}
 
+body {
+    background-image: url("../images/email-pattern.png")
+}
+
+.About {
+    background-color: white;
+    width: 960px;
+    position: center; 
+    border: 2px black
+    padding: 50px;
+    margin: 20px;
 }
