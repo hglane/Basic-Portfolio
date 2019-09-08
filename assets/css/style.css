@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: -20px auto;
     padding: 0;
     background-image: url(../images/email-pattern.png);
     color: #777777;
@@ -8,19 +8,16 @@ body {
 h1 {
     font-size: 25px;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    padding: 0;
-    margin: 0; 
-
 }
 
 .headcontainer{
     background-color: #ffffff;
     margin: 0 auto;
-    padding: 0px;
+    padding: 20px;
     border: 0;
     width: 100%;
-    height: 70px;
-    position: fixed;
+    height: 50px;
+    position: relative;
     border-bottom: 1px solid #cccccc; 
 }
 
@@ -33,9 +30,46 @@ h1 {
     float: left; 
     width: 175px; 
     height: 30px;
-    margin-left: 175px;
+    margin-left: 140px;
 }
 
-nav {
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-right: 160px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+  
+  li {
     float: right;
-}
+  }
+  
+  li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+
+  .aboutme{
+    padding: 20px;
+    color: #4aaaa5;
+    border-bottom: 5px #777777; 
+    margin-top: 35px;
+    margin-left: 5px
+  }
+
+  .maincontent{
+    background-color: #ffffff;
+    height: 500px;
+    width: 960px; 
+    margin: 0 auto;
+  }
+
+  img {
+      float: left;
+      padding: 20px;
+  }
